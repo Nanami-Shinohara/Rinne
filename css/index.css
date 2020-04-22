@@ -1,0 +1,73 @@
+p {
+    color: slategrey;
+}
+
+h1 {
+    color: deeppink;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h2 {
+    color: royalblue;
+}
+
+.company {
+    font-weight: bolder;
+}
+
+.list {
+    color: springgreen;
+}
+
+#list2 {
+    color: blueviolet;
+}
+
+div.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    text-align: center;
+    border-radius: 50% 0% 50% 50%;
+    position: absolute;
+    left: 50px;
+    top: 400px;
+    margin: 50px;
+}
+
+div.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    text-align: center;
+    border-radius: 0% 50% 50% 50%;
+    position: absolute;
+    left: 153px;
+    top: 400px;
+    margin: 50px;
+}
+
+div.box3 {
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    text-align: center;
+    border-radius: 50% 50% 50% 0%;
+    position: absolute;
+    left: 143px;
+    top: 288px;
+    margin: 60px;
+}
+
+div.box4 {
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    text-align: center;
+    border-radius: 50% 50% 0% 50%;
+    position: absolute;
+    left: 41px;
+    top: 288px;
+    margin: 60px;
+}
