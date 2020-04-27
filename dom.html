@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=dvice-width,initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatble" content="ie=edge">
+<title>DOM操作の基本</title>
+ </head>
+<body>
+<button id="textChange">テキスト変更</button>
+<h1>Hello Wolrd!!</h1>
+<p id="target">あいうえお</p>
+<p>かきくけこ</p>
+<p>さしすせそ</p>
+ <script>
+    'use strict';    
+    const textChange = () => {
+        document.querySelector('h1').textContent = "Good By!";      
+        document.getElementById('target').textContent = "Good By!";      
+          }
+    // setTimeout(textChange,2000);
+  document.getElementById('textChange').addEventListener('click',() =>{
+      document.getElementById('target').textContent = "Changed";
+  });
+ 
+ </script>
+</body>
+</html>
